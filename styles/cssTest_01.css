@@ -1,0 +1,25 @@
+ body{
+	background-color: #525252;
+	font-family:helvetica;
+	color:white;
+}
+
+.headerTitle{
+	font-family:Times;
+	font-style:italic;
+	text-align:center;
+}
+
+.sectionTitle{
+	font-family:Helvetica;
+	font-weight: bold;
+}
+
+a{
+	color:lightgreen;
+}
+
+a:active{
+	color:white;
+	font-weight:bold;
+}

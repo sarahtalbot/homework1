@@ -1,0 +1,139 @@
+ body{
+	background-color: #444444;
+	font-family:Georgia;
+	color:white;
+	border: solid 5px grey;
+	margin:20px;
+	padding:50px;
+}
+
+header{
+	padding-bottom: 30px;
+	overflow:auto;
+}
+
+
+nav {
+	display:inline-block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.nav ul {
+	text-align: center;
+}
+
+.nav li{
+	display:inline;
+}
+
+
+a{
+	font-family:Helvetica;
+	font-weight:bold;
+	color:#00d59d;
+	border-right: solid 3px grey;
+	padding-right:5px;
+}
+
+.headerTitle{
+	font-family:Georgia;
+	font-style:italic;
+	text-align:center;
+}
+
+
+.nav .current{
+	color:white;
+	text-decoration:none;
+}
+
+footer{
+	display: inline-block;
+	padding-top: 30px;
+	overflow: auto;
+}
+
+footer ul{
+	display:inline-block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+footer li{
+	display:inline;
+
+}
+
+
+section{
+	border-bottom: solid 2px grey;
+	border-top: solid 2px grey;
+	padding:10px;
+	overflow: auto;
+}
+
+p{
+	overflow-wrap: 
+}
+
+img{
+	border: solid grey 1px;
+	margin:10px;
+	padding:5px;
+	float:right;
+}
+
+.sectionTitle{
+	font-family:Helvetica;
+	font-weight: bold;
+}
+
+
+.educationList{
+	font-family: Helvetica;
+}
+
+/*Why is the helvetica font family getting overridden only in the educationList class?*/
+
+.jobTitle{
+	font-weight: bold;
+	color:white;
+	font-family: Helvetica;
+}
+
+.jobLoc{
+	font-family: Helvetica;
+	color:white;
+}
+
+.jobDate{
+	font-family: Helvetica;
+	font-size:11px;
+	color:lightgrey;
+}
+
+h2{
+	color: lightgrey;
+	text-transform: uppercase;
+	font-family: Helvetica;
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+article p{
+	color:lightgrey;
+}
+
+ul{
+	
+	list-style-type:square;
+
+
+}
+
+
+
+
+
+
